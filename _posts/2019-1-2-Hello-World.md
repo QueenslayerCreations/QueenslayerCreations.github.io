@@ -1,6 +1,8 @@
 ---
 layout: post
 title: My First Blog Post! (Not really)
+tags: hello world, tests, web development
+published: true
 ---
 
 Writting my first blog post now! Not, very exciting... Don't worry this will be deleted eventually! 
