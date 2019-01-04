@@ -1,0 +1,16 @@
+<!-- Page Header -->
+<header class="masthead" style="background-image: url('/css/clean/img/home-bg.jpg')">
+	<div class="overlay"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-md-10 mx-auto">
+				<div class="site-heading">
+					<h1>{{ page.title }}</h1>
+					{% if page.subtitle && page.subtitle.size > 0 %}
+						<span class="subheading">{{ page.subtitle }}</span>
+					{% endif %}
+				</div>
+			</div>
+		</div>
+	</div>
+</header>

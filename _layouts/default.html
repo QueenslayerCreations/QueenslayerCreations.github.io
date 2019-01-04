@@ -1,26 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="stylesheet" href="/css/main.css">
-</head>
-<body>
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <h1 class="text-primary">Hello there!</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium corporis ipsam cumque rerum quas quia neque, dolor vitae laboriosam.</p>
-        <i class="fas fa-thumbs-up fa-2x"></i>
+
+  <!-- Head -->
+  {% include head.html %} 
+
+  <body>
+
+    <!-- Navigation -->
+    {% include navigation.html %} 
+    
+    <!-- Page Header -->
+    {% include header.html %} 
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-preview">
+            <a href="post.html">
+              <h2 class="post-title">
+                Man must explore, and this is exploration at its greatest
+              </h2>
+              <h3 class="post-subtitle">
+                Problems look mighty small from 150 miles up
+              </h3>
+            </a>
+            <p class="post-meta">Posted by
+              <a href="#">Start Bootstrap</a>
+              on September 24, 2018</p>
+          </div>
+          <hr>
+          <div class="post-preview">
+            <a href="post.html">
+              <h2 class="post-title">
+                I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
+              </h2>
+            </a>
+            <p class="post-meta">Posted by
+              <a href="#">Start Bootstrap</a>
+              on September 18, 2018</p>
+          </div>
+          <hr>
+          <div class="post-preview">
+            <a href="post.html">
+              <h2 class="post-title">
+                Science has not yet mastered prophecy
+              </h2>
+              <h3 class="post-subtitle">
+                We predict too much for the next year and yet far too little for the next ten.
+              </h3>
+            </a>
+            <p class="post-meta">Posted by
+              <a href="#">Start Bootstrap</a>
+              on August 24, 2018</p>
+          </div>
+          <hr>
+          <div class="post-preview">
+            <a href="post.html">
+              <h2 class="post-title">
+                Failure is not an option
+              </h2>
+              <h3 class="post-subtitle">
+                Many say exploration is part of our destiny, but it’s actually our duty to future generations.
+              </h3>
+            </a>
+            <p class="post-meta">Posted by
+              <a href="#">Start Bootstrap</a>
+              on July 8, 2018</p>
+          </div>
+          <hr>
+          <!-- Pager -->
+          <div class="clearfix">
+            <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-	<!-- JS -->
-  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
+
+    <hr>
+
+    <!-- Footer -->
+    {% include footer.html %}
+
+
+    <!-- JS -->
+    {% include js.html %} 
+
+  </body>
+
 </html>

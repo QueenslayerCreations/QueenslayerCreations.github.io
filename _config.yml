@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: Lady Queenslayer (Kara)
+name: Queenslayer Creations
 
 # Short bio or description (displayed in the header)
 description: I am a cosplayer, gamer, and all around creator with a computer science background. I enjoy learning new things and making creations that slay.
@@ -41,7 +41,7 @@ google_analytics: UA-131654419-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: https://queenslayercreations.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
