@@ -24,7 +24,16 @@ title: Queenslayer Creations
           <div class="col-lg-6">			
 				{% endif %}
 					<div class="p-5">
-						<p class="">{{ post.date }}</h2>
+            <p class="">
+							{% assign day = post.date | date: "%-d"  %}
+							{% case day %}
+								{% when '1' or '21' or '31' %}{{ day }}st
+								{% when '2' or '22' %}{{ day }}nd
+								{% when '3' or '23' %}{{ day }}rd
+								{% else %}{{ day }}th
+							{% endcase %}
+							{{ post.date | date: "of %B, %Y" }}
+            </h2>
 						<h2 class="display-4">{{ post.title }}</h2>
             <p>{{ post.excerpt }}<a href="{{ post.url }}">Continue reading...</a></p>
 					</div>
