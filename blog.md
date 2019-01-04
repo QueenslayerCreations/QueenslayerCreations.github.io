@@ -1,6 +1,6 @@
 ---
 layout: blog 
-title: Blog Posts
+title: Blog
 subtitle: Documenting the Adventure
 permalink: /blog/
 ---
