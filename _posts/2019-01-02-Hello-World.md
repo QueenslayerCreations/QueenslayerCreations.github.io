@@ -1,7 +1,8 @@
 ---
 layout: post
 title: My First Blog Post! (Not really)
-tags: hello world, tests, web development
+subtitle: The first post...
+tags: hello world, tests, web development, first
 published: true
 ---
 
