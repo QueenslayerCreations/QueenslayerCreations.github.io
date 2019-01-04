@@ -1,0 +1,33 @@
+//
+// Fonts
+//
+
+$cinzel: 'Cinzel', serif;
+$tangerine: 'Tangerine', cursive;
+$balthazar: 'Balthazar', serif;
+
+$header-font: $cinzel;
+$cursive-font: $tangerine;
+$serif-font: $balthazar;
+
+h1, h2, h3, h4 {
+  font-weight: 400;
+  font-family: $header-font;
+}
+
+#mainNav .navbar-nav>li.nav-item>a {
+  font-weight: 400;
+	text-transform: none;
+  font-family: $balthazar;
+	font-size: 14px;
+}
+
+#mainNav .navbar-brand {
+  font-weight: 400;
+  font-family: $header-font;
+}
+
+#mainNav .navbar-toggler {
+  font-weight: 800;
+  font-family: $balthazar;
+}
