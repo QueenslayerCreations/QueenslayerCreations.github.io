@@ -1,5 +1,5 @@
 ---
-layout: page 
+layout: default 
 title: Contact
 subtitle: Follow me on social media!
 permalink: /contact/
