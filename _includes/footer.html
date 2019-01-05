@@ -3,31 +3,125 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 col-md-10 mx-auto">
-				<ul class="list-inline text-center">
-					<li class="list-inline-item">
-						<a href="#">
+				<ul class="list-inline text-center social-media-links">
+
+          {% if site.footer-links.email %}
+            <a class="footer-icon" href="mailto:{{ site.footer-links.email }}">
 							<span class="fa-stack fa-lg">
 								<i class="fas fa-circle fa-stack-2x"></i>
-								<i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+								<i class="fab fa-bath fa-stack-1x fa-inverse stroke-transparent"></i>
 							</span>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a href="#">
+            </a>
+          {% endif %}
+
+          {% if site.footer-links.dribbble %}
+            <a class="footer-icon" href="https://dribbble.com/{{ site.footer-links.dribbble }}">
 							<span class="fa-stack fa-lg">
 								<i class="fas fa-circle fa-stack-2x"></i>
-								<i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+								<i class="fab fa-dribbble fa-stack-1x fa-inverse stroke-transparent"></i>
 							</span>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a href="#">
+            </a>
+          {% endif %}
+
+          {% if site.footer-links.facebook %}
+            <a class="footer-icon" href="https://www.facebook.com/{{ site.footer-links.facebook }}">
 							<span class="fa-stack fa-lg">
 								<i class="fas fa-circle fa-stack-2x"></i>
-								<i class="fab fa-github fa-stack-1x fa-inverse"></i>
+								<i class="fab fa-facebook-f fa-stack-1x fa-inverse stroke-transparent"></i>
 							</span>
-						</a>
-					</li>
+            </a>
+          {% endif %}
+
+          {% if site.footer-links.flickr %}
+            <a class="footer-icon" href="https://www.flickr.com/{{ site.footer-links.flickr }}">
+							<span class="fa-stack fa-lg">
+								<i class="fas fa-circle fa-stack-2x"></i>
+								<i class="fab fa-flickr fa-stack-1x fa-inverse stroke-transparent"></i>
+							</span>
+            </a>
+          {% endif %}
+
+          {% if site.footer-links.github %}
+            <a class="footer-icon" href="https://github.com/{{ site.footer-links.github }}">
+							<span class="fa-stack fa-lg">
+								<i class="fas fa-circle fa-stack-2x"></i>
+								<i class="fab fa-github fa-stack-1x fa-inverse stroke-transparent"></i>
+							</span>
+            </a>
+          {% endif %}
+
+          {% if site.footer-links.instagram %}
+            <a class="footer-icon" href="https://instagram.com/{{ site.footer-links.instagram }}">
+							<span class="fa-stack fa-lg">
+								<i class="fas fa-circle fa-stack-2x"></i>
+								<i class="fab fa-instagram fa-stack-1x fa-inverse stroke-transparent"></i>
+							</span>
+            </a>
+          {% endif %}
+
+          {% if site.footer-links.linkedin %}
+            <a class="footer-icon" href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}">
+							<span class="fa-stack fa-lg">
+								<i class="fas fa-circle fa-stack-2x"></i>
+								<i class="fab fa-linkedin fa-stack-1x fa-inverse stroke-transparent"></i>
+							</span>
+            </a>
+          {% endif %}
+
+          {% if site.footer-links.pinterest %}
+            <a class="footer-icon" href="https://www.pinterest.com/{{ site.footer-links.pinterest }}">
+							<span class="fa-stack fa-lg">
+								<i class="fas fa-circle fa-stack-2x"></i>
+								<i class="fab fa-pinterest-p fa-stack-1x fa-inverse stroke-transparent"></i>
+							</span>
+            </a>
+          {% endif %}
+
+          {% if site.footer-links.rss %}
+            <a class="footer-icon" href="{{ site.baseurl }}/feed.xml">
+							<span class="fa-stack fa-lg">
+								<i class="fas fa-circle fa-stack-2x"></i>
+								<i class="fab fa-rss fa-stack-1x fa-inverse stroke-transparent"></i>
+							</span>
+            </a>
+          {% endif %}
+
+          {% if site.footer-links.twitter %}
+            <a class="footer-icon" href="https://www.twitter.com/{{ site.footer-links.twitter }}">
+							<span class="fa-stack fa-lg">
+								<i class="fas fa-circle fa-stack-2x"></i>
+								<i class="fab fa-twitter fa-stack-1x fa-inverse stroke-transparent"></i>
+							</span>
+            </a>
+          {% endif %}
+
+          {% if site.footer-links.stackoverflow %}
+            <a class="footer-icon" href="http://stackoverflow.com/{{ site.footer-links.stackoverflow }}">
+              <span class="fa-stack fa-lg">
+								<i class="fas fa-circle fa-stack-2x"></i>
+								<i class="fab fa-stackoverflow fa-stack-1x fa-inverse stroke-transparent"></i>
+							</span>
+            </a>
+          {% endif %}
+
+          {% if site.footer-links.youtube %}
+            <a class="footer-icon" href="https://youtube.com/{{ site.footer-links.youtube }}">
+              <span class="fa-stack fa-lg">
+								<i class="fas fa-circle fa-stack-2x"></i>
+								<i class="fab fa-youtube-play fa-stack-1x fa-inverse stroke-transparent"></i>
+							</span>
+            </a>
+          {% endif %}
+
+          {% if site.footer-links.googleplus %}
+            <a class="footer-icon" href="https://plus.google.com/{{ site.footer-links.googleplus }}">
+              <span class="fa-stack fa-lg">
+								<i class="fas fa-circle fa-stack-2x"></i>
+								<i class="fab fa-google-plus fa-stack-1x fa-inverse stroke-transparent"></i>
+							</span>
+            </a>
+          {% endif %}
+
 				</ul>
 				<p class="copyright text-muted">Copyright &copy; Your Website 2018</p>
 			</div>

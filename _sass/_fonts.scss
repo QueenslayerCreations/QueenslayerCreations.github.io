@@ -15,6 +15,46 @@ h1, h2, h3, h4 {
   font-family: $header-font;
 }
 
+p {
+	font-family: $serif-font;
+	margin: 0px;
+}
+
+body {
+  font-family: $serif-font;
+}
+
+.btn {
+  font-weight: 400;
+  font-family: $header-font;  
+  text-transform: none;
+}
+
+.index-post-title {
+	font-weight: 400;
+	font-size: 25px;
+}
+
+.index-post-excerpt {
+	margin-bottom: 25px;
+	max-height: 200px;
+	overflow: hidden;
+}
+
+header.masthead .page-heading .subheading, header.masthead .site-heading .subheading {
+  font-family: $cursive-font;
+	font-size: 40px;
+}
+
+.overlay h2, .overlay a {
+	padding: 0.5em 0;
+  padding-top: 18%;
+  font-size: 45px;
+	text-transform: none;
+  font-family: $cursive-font;
+  text-decoration: none;
+}
+
 #mainNav .navbar-nav>li.nav-item>a {
   font-weight: 400;
 	text-transform: none;
