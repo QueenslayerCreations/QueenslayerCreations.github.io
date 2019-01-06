@@ -2,71 +2,8 @@
 layout: default 
 title: Queenslayer Creations
 ---
-
 {% for post in site.posts limit:4 %}
-	<section>
-		<div class="container">
-			<div class="row align-items-center index-post-container">
-				{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-				{% if thecycle == 'odd' %}	
-					<div class="col-lg-6 order-lg-2">
-						<div class="index-post-img">
-							<div class="hovereffect rounded-circle">
-								<img class="img-responsive img-fluid rounded-circle" src="/images/01.jpg" alt="{{ post.primary-img-alt-text }}">
-								<div class="overlay">
-                 	<h2>
-									{% assign day = post.date | date: "%-d"  %}
-									{% case day %}
-										{% when '1' or '21' or '31' %}{{ day }}st
-										{% when '2' or '22' %}{{ day }}nd
-										{% when '3' or '23' %}{{ day }}rd
-										{% else %}{{ day }}th
-									{% endcase %}
-									{{ post.date | date: "of %B, %Y" }}
-									</h2> 
-									<p>
-									  <a href="{{ post.url }}">View Full Post</a>
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6 order-lg-1">
-				{% else %}
-					<div class="col-lg-6">
-            <div class="index-post-img">
-							<div class="hovereffect rounded-circle">
-								<img class="img-responsive img-fluid rounded-circle" src="/images/01.jpg" alt="{{ post.primary-img-alt-text }}">
-								<div class="overlay">
-                 	<h2>
-									{% assign day = post.date | date: "%-d"  %}
-									{% case day %}
-										{% when '1' or '21' or '31' %}{{ day }}st
-										{% when '2' or '22' %}{{ day }}nd
-										{% when '3' or '23' %}{{ day }}rd
-										{% else %}{{ day }}th
-									{% endcase %}
-									{{ post.date | date: "of %B, %Y" }}
-									</h2> 
-
-									<p>
-									<a href="{{ post.url }}">View Full Post</a>
-									</p>
-								</div>
-							</div>
-            </div>
-          </div>
-          <div class="col-lg-6">			
-				{% endif %}
-					<div class="index-post">
-						<h2 class="index-post-title">{{ post.title }}</h2>
-            <div class="index-post-excerpt">{{ post.excerpt }}</div>
-						<a href="{{ post.url }}">Continue reading...</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+  {% include post-snippit.html %}
   {% unless forloop.last %}
   <hr>
   {% endunless %}

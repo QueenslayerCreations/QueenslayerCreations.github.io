@@ -1,19 +1,18 @@
 ---
 layout: default
-title: Blog
 ---
-<!-- Tag Filter -->
+<!-- Tag Filter (Full tags list) -->
 {% include tag.html %}
 
 <div class="container">
 	<div class="row align-items-center">
 		<div class="col filter-col">
 			<div>
-				<a class="btn col-12 filter-button collapsed" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+				<a class="btn col-12 filter-button" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
 					Filter <i class="fa fa-filter"></i>
 				</a>
 			</div>
-			<div class="collapse" id="collapseExample">
+			<div class="collapse show" id="collapseExample">
         <div class="card card-body tags-list">
           {% for tag in tags %}
             {% include tag-button.html %}
@@ -24,9 +23,9 @@ title: Blog
 	</div>
 </div>
 
-{% for post in site.posts %}
+{% for post in site.tags[page.tag] %}
   {% include post-snippit.html %}
   {% unless forloop.last %}
-  <hr>
+    <hr>
   {% endunless %}
 {% endfor %}

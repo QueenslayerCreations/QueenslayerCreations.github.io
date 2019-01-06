@@ -15,7 +15,9 @@
     <!-- Main Content -->
     {{ content }}
 
+    {% if page.title != "Contact" %}
     <hr>
+    {% endif %}
 
     <!-- Footer -->
     {% include footer.html %}

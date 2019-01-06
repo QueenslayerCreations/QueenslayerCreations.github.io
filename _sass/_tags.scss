@@ -13,6 +13,7 @@ a.btn.filter-button:hover {
 a.filter-button {
   width: 100%;
   color: $primary-color;
+	padding-bottom: 10px;
 }
 
 a.filter-button.collapsed {
@@ -21,4 +22,26 @@ a.filter-button.collapsed {
 
 .filter-col {
   margin: 0px 40px;
+}
+
+a.btn.btn-primary.tag-button {
+	width: fit-content;
+	padding: 1px 5px;
+	font-size: 10px;
+}
+
+a.btn.btn-primary.tag-button.active {
+	background-color: $active-button-color;
+}
+
+.tags-list {
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	padding: 10px;
+}
+
+.post-snippit-tags-list {
+	text-align: left;
+  padding: 25px 0px;
 }
