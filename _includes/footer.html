@@ -9,7 +9,16 @@
             <a class="footer-icon" href="mailto:{{ site.footer-links.email }}">
 							<span class="fa-stack fa-lg">
 								<i class="fas fa-circle fa-stack-2x"></i>
-								<i class="fab fa-bath fa-stack-1x fa-inverse stroke-transparent"></i>
+								<i class="fa fa-paper-plane fa-stack-1x fa-inverse stroke-transparent"></i>
+							</span>
+            </a>
+          {% endif %}
+
+          {% if site.footer-links.twitch %}
+            <a class="footer-icon" href="https://www.twitch.tv/{{ site.footer-links.twitch }}">
+							<span class="fa-stack fa-lg">
+								<i class="fas fa-circle fa-stack-2x"></i>
+								<i class="fab fa-twitch fa-stack-1x fa-inverse stroke-transparent"></i>
 							</span>
             </a>
           {% endif %}
@@ -37,15 +46,6 @@
 							<span class="fa-stack fa-lg">
 								<i class="fas fa-circle fa-stack-2x"></i>
 								<i class="fab fa-flickr fa-stack-1x fa-inverse stroke-transparent"></i>
-							</span>
-            </a>
-          {% endif %}
-
-          {% if site.footer-links.github %}
-            <a class="footer-icon" href="https://github.com/{{ site.footer-links.github }}">
-							<span class="fa-stack fa-lg">
-								<i class="fas fa-circle fa-stack-2x"></i>
-								<i class="fab fa-github fa-stack-1x fa-inverse stroke-transparent"></i>
 							</span>
             </a>
           {% endif %}
@@ -118,6 +118,15 @@
               <span class="fa-stack fa-lg">
 								<i class="fas fa-circle fa-stack-2x"></i>
 								<i class="fab fa-google-plus fa-stack-1x fa-inverse stroke-transparent"></i>
+							</span>
+            </a>
+          {% endif %}
+
+          {% if site.footer-links.github %}
+            <a class="footer-icon" href="https://github.com/{{ site.footer-links.github }}">
+							<span class="fa-stack fa-lg">
+								<i class="fas fa-circle fa-stack-2x"></i>
+								<i class="fab fa-github fa-stack-1x fa-inverse stroke-transparent"></i>
 							</span>
             </a>
           {% endif %}

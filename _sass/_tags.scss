@@ -1,0 +1,24 @@
+//
+// Tags
+//
+
+a.btn:focus {
+  box-shadow: none;
+}
+
+a.btn.filter-button:hover {
+  color: $primary-color;
+}
+
+a.filter-button {
+  width: 100%;
+  color: $primary-color;
+}
+
+a.filter-button.collapsed {
+  color: $black;
+}
+
+.filter-col {
+  margin: 0px 40px;
+}
