@@ -1,8 +1,11 @@
 ---
-layout: default 
+layout: about 
 title: About Me
-subtitle: Cosplayer Gamer Creator
+subtitle: "The journey not the arrival matters. – T.S. Eliot"
 permalink: /about/
+bio: "I am a cosplayer, gamer, and all around creator with a computer science background. I enjoy learning new things and making creations that slay."
+cosplayer: "Hi! My name is Kara, I so appreciate that you visited my blog! This is a passion project of mine and I have loved writing code and working in a terminal for the first time in forever. I hope to share some cosplay and home related coding projects in the future. But, coding is not my intended focus here. I started this blog because when I work on cosplays, projects, and crafts I always search for tutorials and how-to videos first. If someone else has already made a costume and shared their process I want to know how they did it. I find those tips, tricks, and sometimes, tribulations super helpful when it comes to planning how I’m going to tackle a project. While I am not an expert and I certainly have a lot to learn. I want to share my successes and failures. Hopefully they can help you in your own journey!"
+gamer: "I have been playing video games basically my whole life but I never considered myself a gamer until the summer before 7th grade. My family had just moved to a new house and I would be attending a new school without any of my old friends. My older brother had been playing a new video game and he convinced me to try it. Little did I know then in our small computer room that this would spark my love of video games for years to come. The video game from that fateful day was Guild Wars. I was so happy just to be able to create a girl character. As a middle schooler this was my bar for video games. When it came time to create my characters name I had no idea what I wanted to name her. She certainly needed a badass name because she was going to become a kickass character, obviously. But I also wanted to give her a story. Something that drove her to be the badass lady she was. That’s when I named her Lady Queenslayer. Maybe she was a warrior who valiantly conquered a tyrant queen or perhaps she was a noblewoman with a name passed down from a murderous crook of a forefather. Either way she would introduce me to the beautiful world that the developers at Arenanet created and the joy that video games can bring to a bored and lonely kid."
+creator: "Creating has been in my blood from the time I was born and has been a part of my whole life. I have always loved drawing and painting. My mom even taught me how to sew and knit at a young age. That’s why I was inspired in highschool to dream of becoming a costume designer. Also why now in my adult life I find joy in creating this blog and the many costume, prop, fitness updates, home projects, (and so much more!) that are to be shared here. I hope you can find inspiration and joy in my posts!"
 ---
 
-Some information about me!
